@@ -1,3 +1,0 @@
-/root/Downloads/build/CMakeFiles/rebuild_cache.dir
-/root/Downloads/build/CMakeFiles/edit_cache.dir
-/root/Downloads/build/CMakeFiles/helloworld.dir

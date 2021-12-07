@@ -1,1 +1,0 @@
-/opt/devkitpro/devkitPPC/bin/powerpc-eabi-gcc -mcpu=750 -meabi -mhard-float -Wl,-q -D__WIIU__ -D__WUT__ "-L/opt/devkitpro/wut/lib/stubs" -specs=/opt/devkitpro/wut/share/wut.specs CMakeFiles/helloworld.dir/main.c.obj -o helloworld  "/opt/devkitpro/wut/lib/libwut.a" 
