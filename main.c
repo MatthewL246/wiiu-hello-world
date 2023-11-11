@@ -258,6 +258,7 @@ int main(void)
     WHBLogPrint("Got shutdown request!");
 
     /* Print a goodbye message and then wait before exiting. */
+    /*
     OSScreenPutFontEx(SCREEN_TV, 0, 6, "Goodbye! Quitting now.");
     OSScreenPutFontEx(SCREEN_DRC, 0, 12, "Goodbye! Quitting now.");
     DCFlushRange(tvBuffer, tvBufferSize);
@@ -265,6 +266,7 @@ int main(void)
     OSScreenFlipBuffersEx(SCREEN_TV);
     OSScreenFlipBuffersEx(SCREEN_DRC);
     OSSleepTicks(OSMillisecondsToTicks(1000));
+    */
 
     /* It's vital to free everything - under certain circumstances, your memory
     allocations can stay allocated even after you quit. */
@@ -274,7 +276,7 @@ int main(void)
         free(drcBuffer);
 
     /* Deinit everything */
-    OSScreenShutdown();
+    /*OSScreenShutdown();*/
 
     WHBLogCafeDeinit();
     WHBLogUdpDeinit();
