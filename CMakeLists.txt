@@ -8,3 +8,4 @@ add_executable(helloworld main.c)
 target_compile_options(helloworld PRIVATE -Wall -Wextra -pedantic)
 
 wut_create_rpx(helloworld)
+wut_create_wuhb(helloworld)
